@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora 2.0</title>
+    <link rel="stylesheet" href="/Css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/imgs/icos/seo-social-web-network-internet_92_icon-icons.com_61528.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="tagBody" onload="iniciar()">
+    <div class="content-tema">
+      <!--------------------- Inicio do butoon de tema --------------------->
+      <button class="button_TEMAs">
+        <img
+          src="/imgs/icos/B_tema/gui_theme_icon_158365.ico"
+          alt="temas"
+          id="icon_img"
+        />
+      </button>
+      <!--------------------- Fim do button de tema --------------------->
+      <!--------------------- informaçao do button de tema --------------------->
+      <div id="informaçao_button_tema">
+        <p id="informaçao" class="informaçao">
+          Cliqui aqui para mudar o tema de fundo.
+        </p>
+      </div>
+      <!--------------------- Fim informaçao do button de tema --------------------->
+    </div>
+    <div class="content">
+      <div id="tela"></div>
+
+      <div class="tecl">
+        <input
+          type="button"
+          value="C"
+          onclick="clean()"
+          class="bt"
+          id="clean"
+          name="10"
+        />
+        <input
+          type="button"
+          value="/"
+          onclick="div()"
+          class="bt"
+          id="operadores"
+          name="11"
+        />
+        <input
+          type="button"
+          value="%"
+          onclick="porce()"
+          class="bt"
+          id="operadores"
+          name="12"
+        />
+        <input
+          type="button"
+          value="X"
+          onclick="mult()"
+          class="bt"
+          id="operadores"
+          name="13"
+        />
+        <input
+          type="button"
+          value="7"
+          onclick="tb7()"
+          class="bt"
+          id="dig"
+          name="07"
+        />
+        <input
+          type="button"
+          value="8"
+          onclick="tb8()"
+          class="bt"
+          id="dig"
+          name="08"
+        />
+        <input
+          type="button"
+          value="9"
+          onclick="tb9()"
+          class="bt"
+          id="dig"
+          name="09"
+        />
+        <input
+          type="button"
+          value="-"
+          onclick="sub()"
+          class="bt"
+          id="operadores"
+          name="14"
+        />
+        <input
+          type="button"
+          value="4"
+          onclick="tb4()"
+          class="bt"
+          id="dig"
+          name="04"
+        />
+        <input
+          type="button"
+          value="5"
+          onclick="tb5()"
+          class="bt"
+          id="dig"
+          name="05"
+        />
+        <input
+          type="button"
+          value="6"
+          onclick="tb6()"
+          class="bt"
+          id="dig"
+          name="06"
+        />
+        <input
+          type="button"
+          value="+"
+          onclick="soma()"
+          class="bt"
+          id="operadores"
+          name="15"
+        />
+        <input
+          type="button"
+          value="1"
+          onclick="tb1()"
+          class="bt"
+          id="dig"
+          name="01"
+        />
+        <input
+          type="button"
+          value="2"
+          onclick="tb2()"
+          class="bt"
+          id="dig"
+          name="02"
+        />
+        <input
+          type="button"
+          value="3"
+          onclick="tb3()"
+          class="bt"
+          id="dig"
+          name="03"
+        />
+        <input
+          type="button"
+          value="="
+          onclick="ingual()"
+          class="bt"
+          id="ingual"
+          name="16"
+        />
+        <input
+          type="button"
+          value="0"
+          onclick="tb0()"
+          class="bt"
+          id="bt0"
+          name="17"
+        />
+        <div class="tagName"><em>DevOJeff</em></div>
+      </div>
+    </div>
+    <script src="/js/javaScript.js"></script>
+  </body>
+</html>
