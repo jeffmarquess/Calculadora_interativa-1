@@ -5,7 +5,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background: url('/imgs/backgrounds/sunrise-1014713_1280.jpg') no-repeat;
+  background: url("/imgs/backgrounds/sunrise-1014713_1280.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -106,7 +106,7 @@ img:hover {
 }
 /*------------------- Fim - animação do icon -------------------*/
 .tema_A {
-  background: url('/imgs/backgrounds/sunrise-1014713_1280.jpg') no-repeat;
+  background: url("/imgs/backgrounds/sunrise-1014713_1280.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -116,7 +116,7 @@ img:hover {
 }
 
 .tema_B {
-  background: url('/imgs/backgrounds/curvada-estrada-lamacenta-estreita-em-uma-floresta-escura-rodeada-por-vegetacao-e-um-pouco-de-luz-vindo-de-cima.jpg')
+  background: url("/imgs/backgrounds/curvada-estrada-lamacenta-estreita-em-uma-floresta-escura-rodeada-por-vegetacao-e-um-pouco-de-luz-vindo-de-cima.jpg")
     no-repeat;
   background-size: cover;
   height: 100vh;
